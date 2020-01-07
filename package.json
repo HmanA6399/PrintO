@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "private": false,
   "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
