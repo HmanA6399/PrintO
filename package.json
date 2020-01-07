@@ -2,7 +2,7 @@
   "name": "debugobj",
   "version": "1.0.4",
   "private": false,
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -15,7 +15,7 @@
     "test": "echo \"no test specified\" "
   },
   "np": {
-    "contents": "./dist",
+    "content" : "dist",
     "cleanup": "false"
   },
   "repository": {
