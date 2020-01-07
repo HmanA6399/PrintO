@@ -1,0 +1,28 @@
+{
+  "name": "printo",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Simple standalone Object Debugging component for React and JSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HmanA6399/PrintO.git"
+  },
+  "keywords": [
+    "React",
+    "JSX",
+    "Debug"
+  ],
+  "peerDependencies": {
+    "react": "16.12.0"
+  },
+  "author": "HmanA6399",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HmanA6399/PrintO/issues"
+  },
+  "homepage": "https://github.com/HmanA6399/PrintO#readme"
+}
