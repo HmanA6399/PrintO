@@ -14,6 +14,10 @@
     "build": "webpack --mode=production",
     "test": "echo \"no test specified\" "
   },
+  "np": {
+    "contents": "dist",
+    "cleanup": "false"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HmanA6399/DebugObj.git"
