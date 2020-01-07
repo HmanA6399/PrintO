@@ -1,6 +1,6 @@
 {
   "name": "debugobj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Simple standalone Object Debugging component for React and JSX",
   "main": "index.js",
