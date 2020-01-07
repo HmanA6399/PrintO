@@ -1,3 +1,5 @@
+import React from 'react'
+
 export function DebugObj(props) {
   return (
     <pre
