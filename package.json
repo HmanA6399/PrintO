@@ -19,6 +19,7 @@
   "peerDependencies": {
     "react": "16.12.0"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "HmanA6399",
   "license": "MIT",
   "bugs": {
