@@ -1,4 +1,4 @@
-export function PrintO(props) {
+export function DebugObj(props) {
     <pre
       style={{
         fontFamily: "consolas",
