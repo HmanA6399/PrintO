@@ -1,4 +1,5 @@
 export function DebugObj(props) {
+  return (
     <pre
       style={{
         fontFamily: "consolas",
@@ -12,20 +13,24 @@ export function DebugObj(props) {
         padding: "20px"
       }}
     >
-        {printObjectDeeply(props.obj, 0)}
+      {printObjectDeeply(props.obj, 0)}
     </pre>
+  );
 }
 
 export function printObjectDeeply(obj, level) {
-    return (
-        "{" +
-            Object.entries(obj).map(
-                (el) => (
-                "\n" + ("\t").repeat(level+1) + el[0] + " : " + (typeof el[1] == "object"
-                    ?   PrintObjectDeeply(el[1], level+1)
-                        : el[1])
-                )
-            )
-        +"\n"+("\t").repeat(level) + "}"
-    );
+  return (
+    "{" +
+    Object.entries(obj).map(
+      el =>
+        "\n" +
+        "\t".repeat(level + 1) +
+        el[0] +
+        " : " +
+        (typeof el[1] == "object" ? PrintObjectDeeply(el[1], level + 1) : el[1])
+    ) +
+    "\n" +
+    "\t".repeat(level) +
+    "}"
+  );
 }
