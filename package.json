@@ -15,7 +15,6 @@
     "test": "echo \"no test specified\" "
   },
   "np": {
-    "content" : "dist",
     "cleanup": "false"
   },
   "repository": {
