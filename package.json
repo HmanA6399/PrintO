@@ -2,13 +2,13 @@
   "name": "debugobj",
   "version": "1.0.4",
   "private": false,
+  "main": "./dist/bundle.js",
   "babel": {
     "presets": [
       "@babel/preset-react"
     ]
   },
   "description": "Simple standalone Object Debugging component for React and JSX",
-  "main": "index.js",
   "scripts": {
     "prepublish": "rm -rf dist && npm run build",
     "build": "webpack --mode=production",
